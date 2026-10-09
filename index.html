@@ -13,17 +13,13 @@
         <li>Gather clues</li>
         <li>Identify the culprit</li>
     </ul>
-    <form action="game.htm" method="get">
-
-        <!-- Text input -->
+    <form action="index.html" method="get">
         <label for="Mr.V">What is your name?</label>
-        <input type="text" id="Mr.V" name="Mr.V" placeholder="Enter your name" required
-    
-        >
+        <input type="text" id="Mr.V" name="Mr.V" placeholder="Enter your name" required>
  <br><br>
 
-        <label for="suspect">Who do you suspect ate the cookies?</label>
-        <select id="suspect" name="suspect" required>
+        <label for="Brother">Who do you suspect ate the cookies?</label>
+        <select id="Brother" name="Brother" required>
             <option value="">Choose a suspect</option>
             <option value="Sister">My sister</option>
             <option value="Brother">My brother</option>
@@ -31,69 +27,36 @@
         </select>
                 <p>How many cookies are missing?</p>
 
-        <input
-            type="radio"
-            id="one"
-            name="missing"
-            value="1"
-            required
-        >
+        <input type="radio" id="one" name="missing" value="1" required>
         <label for="one">1 cookie</label>
-
-        <input
-            type="radio"
-            id="two"
-            name="missing"
-            value="2"
-        >
+        <input type="radio" id="two" name="missing" value="2">
         <label for="two">2 cookies</label>
-
-        <input
-            type="radio"
-            id="three"
-            name="missing"
-            value="3"
-        >
+        <input type="radio" id="three" name="missing" value="3">
         <label for="three">3 or more cookies</label>
         <br><br>
 
-        <!-- Text area -->
-        <label for="clue">What clues did you find?</label>
-        <textarea
-            id="clue"
-            name="clue"
+    
+        <label for="Cookies pieces">What clues did you find?</label>
+        <textarea 
+            id="Cookies pieces"
+            name="Cookies pieces"
             placeholder="Describe the evidence you discovered..."
             rows="4"
             cols="40"
         ></textarea>
         <br><br>
 
-        <!-- Number input -->
         <label for="time">What time did the cookies disappear?</label>
-        <input
-            type="time"
-            id="time"
-            name="time"
-        >
+        <input type="time" id="9:00:00" name="9:00:00">
         <br><br>
 
-        <!-- Checkbox -->
-        <input
-            type="checkbox"
-            id="interviewed"
-            name="interviewed"
-            value="yes"
-        >
+        <input type="checkbox" id="interviewed" name="interviewed" value="yes">
         <label for="interviewed">I have interrogated all the suspects</label>
         <br><br>
 
-        <!-- Submit button -->
         <button type="submit">Submit Investigation</button>
 
     </form>
 
-</body>
-</html>
-    </form>
 </body>
 </html> 
