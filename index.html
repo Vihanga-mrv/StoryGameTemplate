@@ -1,1 +1,99 @@
-<!-- Add your index page here -->
+<html>
+<head>
+    <title>My Game</title>
+</head>
+<body>
+    <h1>Welcome to My Game</h1>
+    <p>This is a simple game built with HTML</p>
+    <h4>What is this game about?</h4>
+    <p>This game is about finding MY lost cookies!Someone has been eating them. There was only 4 people who was at home.There was me , my sister , my brother and my mom.we have to check each of them and find the <strong>culprit</strong>.</p>
+    <h4>Objective</h4>
+    <ul>
+        <li>Interrogate each person</li>
+        <li>Gather clues</li>
+        <li>Identify the culprit</li>
+    </ul>
+    <form action="game.htm" method="get">
+
+        <!-- Text input -->
+        <label for="Mr.V">What is your name?</label>
+        <input type="text" id="Mr.V" name="Mr.V" placeholder="Enter your name" required
+    
+        >
+ <br><br>
+
+        <label for="suspect">Who do you suspect ate the cookies?</label>
+        <select id="suspect" name="suspect" required>
+            <option value="">Choose a suspect</option>
+            <option value="Sister">My sister</option>
+            <option value="Brother">My brother</option>
+            <option value="Mom">My mom</option>
+        </select>
+                <p>How many cookies are missing?</p>
+
+        <input
+            type="radio"
+            id="one"
+            name="missing"
+            value="1"
+            required
+        >
+        <label for="one">1 cookie</label>
+
+        <input
+            type="radio"
+            id="two"
+            name="missing"
+            value="2"
+        >
+        <label for="two">2 cookies</label>
+
+        <input
+            type="radio"
+            id="three"
+            name="missing"
+            value="3"
+        >
+        <label for="three">3 or more cookies</label>
+        <br><br>
+
+        <!-- Text area -->
+        <label for="clue">What clues did you find?</label>
+        <textarea
+            id="clue"
+            name="clue"
+            placeholder="Describe the evidence you discovered..."
+            rows="4"
+            cols="40"
+        ></textarea>
+        <br><br>
+
+        <!-- Number input -->
+        <label for="time">What time did the cookies disappear?</label>
+        <input
+            type="time"
+            id="time"
+            name="time"
+        >
+        <br><br>
+
+        <!-- Checkbox -->
+        <input
+            type="checkbox"
+            id="interviewed"
+            name="interviewed"
+            value="yes"
+        >
+        <label for="interviewed">I have interrogated all the suspects</label>
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Investigation</button>
+
+    </form>
+
+</body>
+</html>
+    </form>
+</body>
+</html> 
